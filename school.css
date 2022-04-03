@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+.london{
+    float: left;
+    width: 35%;
+    padding: 30px;
+
+}
+.paris{
+    float: left;
+    width: 30%;
+    padding: 30px;
+   
+
+}
+.tokyo{
+    float: left;
+    width: 35%;
+    padding: 30px;
+}
+section{
+    content: "";
+   display: table;
+    clear: none;
+    display: flex;
+
+}
+header{
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+@media screen and (width: 800px){
+    .tokyo, .london, .paris{
+        width: 100%;
+    }
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-display: auto;
+    text-align: justify;
+    margin: 0px auto;
+}
+

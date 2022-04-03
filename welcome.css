@@ -1,0 +1,33 @@
+.welcome{
+    background-color: aqua;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+h1{
+    font-size: 60;
+    font-weight: 100;
+    border:5px solid greenyellow;
+}
+
+.stylesheet{
+    text-align: end  
+}
+.same-page{
+    color: blue;
+}/*this is*/
+.nkem{
+    color: brown;
+}/*this is*/
+body{
+    background-image: url( "my-pics/kises.JPG" );
+    background-repeat: no-repeat;
+    padding: auto;
+    background-position: right end;
+    scroll-margin-block-end: 100px;
+    background-attachment: fixed;
+    background-size: contain
+}
+ul{
+    text-align: end;
+}

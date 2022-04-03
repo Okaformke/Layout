@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.water{
+    background-color: blue;
+    padding: 20px;
+    float: right;
+    width: 50%;
+    height: 10%;
+}
+.noah{
+    background-color: aqua;
+    padding: 20px;
+    float: left;
+    width: 50%;
+    height: 10%;
+}
+@media screen and (max-width: 620px) {
+    .water, .noah {
+        width: 100%;
+    }
+}

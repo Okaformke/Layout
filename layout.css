@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: goldenrod;
+    
+}
+header{
+    background-color: blue;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+}
+ol{
+    float: left;
+    width: 20%;
+    padding: 30px;
+    background-color: coral;
+    height: 300px; 
+    padding-top: 10px;
+}
+ol li{
+    list-style-type: none;
+}
+
+article{
+    float: left;
+    width: 60%;
+    padding: 10px;
+    background-color: chocolate;
+
+}
+aside{
+    float: right;
+    width: 20%;
+    padding: 10px;
+    background-color: coral;
+
+}
+div::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+footer{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+@media screen and (max-width: 1020px) {
+    nav, article, aside {
+        width: 100%;
+        height:auto;
+    }
+}
+@media screen and (max-width: 700px) {
+    nav, article, aside {
+        width: 100%;
+        height:auto;
+    }
+}
+
+
+
